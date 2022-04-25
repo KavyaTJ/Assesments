@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 1rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--foregroundColor);
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+  margin-top: 0px;
+  margin-left: 10px;
+  margin-bottom: -10px;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.heading h1 {
+  margin-right: 1rem;
+}
